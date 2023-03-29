@@ -1,7 +1,3 @@
-<script setup>
-
-</script>
-
 <template>
   <div>
     <navbar />
@@ -18,13 +14,15 @@
         </div>
       </div>
     </section>
-    <section class="mb-40">
+    <section class="mb-12">
     <div id="popular">
       <div>Popular Restaurants</div>
         <div class="mb-12 lg:mb-0 relative">
           <div id="radius-shape-1" class="absolute rounded-full shadow-lg"></div>
           <div id="radius-shape-2" class="absolute shadow-lg"></div>
-            <div id="restaurantName" class="ps-2 py-4 by-green-600">
+            <div class="block rounded-lg shadow-lg bg-glass px-6 py-12 md:px-12">
+              <div id="restaurantName" class="px-2 py-4 bg-green-600">
+            </div>
         </div>
       </div>
     </div>
@@ -32,7 +30,11 @@
   </div>
 </template>
 
+<script>
+export default {
 
+}
+</script>
 
 
 
